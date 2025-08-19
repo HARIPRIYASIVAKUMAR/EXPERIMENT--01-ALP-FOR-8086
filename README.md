@@ -123,10 +123,55 @@ HLT
 
 ## Output  
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/442cd8af-a785-4721-9001-ff802eafe68c" />
+## Programs for logical operations
 
 
-## Result :
- 
+## AND
+```
+MOV AL, 53H
+MOV BL, 24H
+AND AL,BL
+HLT
+```
+
+## Output
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5bc0dd84-fb1e-433e-af10-569ed0a13b5a" />
+
+## OR
+```
+MOV AL, 53H
+MOV BL, 24H
+OR AL,BL
+HLT
+```
+
+## Output
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9ab72c8-decc-434f-8d30-ed1603437cf8" />
+
+## NOT :
+```
+MOV AL, 53H
+MOV BL, 24H
+NOT AL
+HLT
+```
+
+## OUTPUT:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/46182b86-fb3a-48d7-a662-9603c7673544" />
+
+## EX-OR
+```
+MOV AL, 53H
+MOV BL, 24H
+XOR AL,BL
+HLT
+```
+
+## Output
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/642cb320-2ad5-4ba4-bd21-57457a9019a5" />
+
+## Result
 Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
